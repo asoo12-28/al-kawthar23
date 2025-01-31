@@ -55,10 +55,10 @@ h1 {
     background-color: #fff;
     border: 2px solid #1d3557; /* Navy blue border */
     color: #1d3557;
-    padding: 15px 30px;
+    padding: 10px 20px; /* تقليص المسافة داخل الخانات */
     border-radius: 5px;
     font-size: 1.2em;
-    width: 300px;
+    width: 250px; /* تقليص عرض الخانات */
     text-align: center;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
@@ -66,20 +66,15 @@ h1 {
 .social-item a {
     color: #1d3557;
     text-decoration: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
+    display: block;
+    padding: 8px 0; /* تقليص المسافة حول النص */
+    font-size: 1.4em; /* تقليص حجم النص */
+    text-align: center;
 }
 
 .social-item a:hover {
     background-color: #1d3557;
     color: #fff;
-}
-
-.social-icon {
-    width: 30px;
-    height: 30px;
 }
 
 footer {
@@ -96,8 +91,7 @@ footer {
     }
 
     .social-item {
-        width: 80%; /* تقلص الخانات لتناسب الشاشة الصغيرة */
-        padding: 12px 20px;
+        width: 70%; /* جعل الخانات أصغر على الشاشات الصغيرة */
     }
 
     .logo {
